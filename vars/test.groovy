@@ -1,3 +1,5 @@
+import com.tothenew.utility
 def call(String name){
- print(name)
+ object = new utility()
+ object.printy(name)
 }
