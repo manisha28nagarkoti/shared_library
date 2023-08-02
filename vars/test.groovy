@@ -1,5 +1,12 @@
 import com.tothenew.utility
 def call(String name){
  object = new utility()
- object.printy(name)
+ pipeline{
+  stage('print_name'){
+   step{
+    object.printy(name)
+   }
+  }
+ }
+ 
 }
