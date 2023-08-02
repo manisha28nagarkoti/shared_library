@@ -1,8 +1,8 @@
-import com.tothenew.utility
+
 
 def call(String name){
 
-    object = new  utility()
+   
 
     pipeline{
         
@@ -10,7 +10,7 @@ def call(String name){
         step{    
            script{
               
-               object.print(name)
+               sh """ echo hi  """
            }
         } 
       
