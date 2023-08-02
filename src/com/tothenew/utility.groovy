@@ -1,7 +1,5 @@
 package com.tothenew
 
-def print(String name){
-    sh"""
-     echo $name
-    """ 
+def printy(String name){
+    print("hii")
 }
