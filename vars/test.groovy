@@ -5,12 +5,12 @@ def call(String name){
   agent any 
   stages{
       stage('print_name'){
-       step{
+       steps{
          object.printy(name)
        }
      }
      stage('print_name1'){
-       step{
+       steps{
          object.printy(name)
        }
      }
