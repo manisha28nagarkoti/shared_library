@@ -7,7 +7,7 @@ def call(String name){
     pipeline{
       
         stage('print'){
-        steps{    
+        step{    
            script{
                object.print(name)
            }
