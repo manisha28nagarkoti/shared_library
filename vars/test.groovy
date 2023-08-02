@@ -1,3 +1,3 @@
 def call(String name){
- sh """ echo hi """
+ sh """ sudo echo hi """
 }
