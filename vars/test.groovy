@@ -6,12 +6,16 @@ def call(String name){
   stages{
       stage('print_name'){
        steps{
-         object.printy(name)
+         script{
+            object.printy(name)
+         }
        }
      }
      stage('print_name1'){
        steps{
-         object.printy(name)
+         script{
+            object.printy(name)
+         }
        }
      }
  }
