@@ -9,6 +9,7 @@ def call(String name){
         stage('print'){
         step{    
            script{
+               sh """ echo hiii """
                object.print(name)
            }
         } 
