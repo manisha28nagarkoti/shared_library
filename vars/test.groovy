@@ -1,6 +1,6 @@
 import com.tothenew.utility
 def call(String name){
- object = new Utility()
+ object = new utility()
  object.printy(name)
  // pipeline{
  //  agent any 
