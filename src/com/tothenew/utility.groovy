@@ -10,7 +10,7 @@ def printy(String name){
                sh ''' echo $name'''
          
              }
-         }
+           }
          stage('print_name1'){
             steps{
          
@@ -20,4 +20,6 @@ def printy(String name){
       }
   }
 
-}
+ }
+}  
+    
