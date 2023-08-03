@@ -6,17 +6,18 @@ def printy(String name){
    stages{
       stage('print_name'){
        steps{
-         script{
+         
             sh ''' echo $name'''
-         }
+         
        }
      }
      stage('print_name1'){
        steps{
-         script{
+         
             sh '''echo $name'''
-         }
+         
        }
      }
  }
+}
 }
